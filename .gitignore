@@ -1,0 +1,11 @@
+.env
+.venv/
+*.xml
+*.iml
+.idea/
+.vscode/
+log/
+*node_modules/
+__pycache__/
+myenv/
+config.js
