@@ -22,10 +22,21 @@ from hypercorn.config import Config
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: Create background tasks set
+    # Startup: Connect to database
+    try:
+        await Database.connect_db()
+        print("Database connection established on startup")
+    except Exception as e:
+        print(f"Failed to connect to database on startup: {e}")
+        raise
     background_tasks = set()
     yield
-    # Shutdown: Clean up tasks
+    # Shutdown: Close database connection and clean up tasks
+    try:
+        await Database.close_db()
+        print("Database connection closed on shutdown")
+    except Exception as e:
+        print(f"Error closing database: {e}")
     for task in background_tasks:
         task.cancel()
 

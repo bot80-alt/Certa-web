@@ -6,7 +6,7 @@ anyio
 astunparse
 attrs
 backoff
-bcrypt
+bcrypt==3.2.2
 beautifulsoup4
 blinker
 bs4
@@ -88,7 +88,7 @@ optree
 outcome
 packaging
 pandas
-passlib
+passlib[bcrypt]==1.7.4
 pillow
 playwright
 playwright-stealth
