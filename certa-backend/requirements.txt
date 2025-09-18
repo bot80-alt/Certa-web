@@ -101,6 +101,7 @@ pyasn1_modules
 pycparser
 pydantic
 pydantic_core
+pydub
 pyee
 Pygments
 pymongo
