@@ -378,7 +378,7 @@ export const InteractiveLiveStreaming = () => {
           <CardHeader className="relative z-10">
             <CardTitle className="text-3xl font-bold text-white flex items-center gap-2">
               <Radio className="h-6 w-6 text-indigo-300" />
-              Nexus of Truth Live Broadcast
+              Certa Live Broadcast
             </CardTitle>
             <CardDescription className="text-blue-100 text-lg">
               Real-time misinformation detection during live broadcasts

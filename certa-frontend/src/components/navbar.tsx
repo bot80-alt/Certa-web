@@ -115,15 +115,15 @@ export default function Navbar() {
               >
                 <img
                   src={logo}
-                  alt="TruthTell Logo"
-                  className="h-10 w-10 rounded-full border-2 border-fuchsia-500"
+                  alt="Certa Logo"
+                  className="h-10 w-10 rounded-full"
                 />
               </motion.div>
               <motion.span
-                className="ml-2 text-lg font-bold text-white"
-                whileHover={{ color: "#e879f9" }}
+                className="ml-2 text-lg font-bold text-black backdrop-blur-sm"
+                whileHover={{ color: "#0071A5FF" }}
               >
-                <Link to="/">Nexus of Truth</Link>
+                <Link to="/">Certa</Link>
               </motion.span>
             </div>
 
@@ -131,19 +131,19 @@ export default function Navbar() {
             <div className="hidden md:flex items-center gap-6">
               <Link
                 to="/"
-                className="text-white hover:text-fuchsia-400 transition-colors font-medium"
+                className="text-black hover:text-blue-400 transition-colors font-medium"
               >
                 Home
               </Link>
               <Link
                 to="/dashboard"
-                className="text-white hover:text-fuchsia-400 transition-colors font-medium"
+                className="text-black hover:text-blue-400 transition-colors font-medium"
               >
                 Dashboard
               </Link>
               <Link
                 to="/about"
-                className="text-white hover:text-fuchsia-400 transition-colors font-medium"
+                className="text-black hover:text-blue-400 transition-colors font-medium"
               >
                 About Us
               </Link>

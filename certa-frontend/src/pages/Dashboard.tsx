@@ -14,7 +14,7 @@ export default function Dashboard() {
       <div className="min-h-screen bg-black text-white pt-12">
         <div className="container mx-auto p-8">
           <h1 className="text-3xl font-bold mb-8 text-white">
-            Nexus of Truth Dashboard
+            Certa Dashboard
           </h1>
           <Tabs defaultValue="realtime-news" className="w-full">
             <TabsList className="grid w-full grid-cols-5 gap-4 mb-8 rounded-lg h-auto bg-slate-800">

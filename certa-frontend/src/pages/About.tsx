@@ -7,29 +7,29 @@ const About = () => {
 
   const teamMembers = [
     {
-      name: "Chaitya Shah",
+      name: "Madesh Vaithya",
       role: "Team Lead/Full Stack Engineer",
       description: "Oversees project management and full-stack development",
     },
     {
-      name: "Krishna Sai V",
+      name: "Madhanraj",
       role: "Developer Relations/DevOps",
       description: "Focuses on integration and deployment of AI models",
     },
     {
-      name: "Ramya Parsania",
+      name: "Shyam Sundar",
       role: "ML Engineer",
       description:
         "Built the NLP models for fact-checking and deepfake detection",
     },
     {
-      name: "Krish Patel",
+      name: "Sajid",
       role: "AI Engineer",
       description:
         "Works on developing and optimizing AI algorithms for various applications",
     },
     {
-      name: "Satyam Ambi",
+      name: "Prieyen",
       role: "Web Dev Engineer",
       description:
         "Creates the user interface and ensures a seamless user experience",
@@ -64,7 +64,7 @@ const About = () => {
             >
               About{" "}
               <span className="text-gradient bg-gradient-to-r from-fuchsia-400 to-blue-500 bg-clip-text text-transparent">
-                Nexus of Truth
+                Certa
               </span>
             </motion.h1>
             <motion.p
@@ -99,7 +99,7 @@ const About = () => {
               </h2>
               <div className="prose prose-lg prose-invert">
                 <p className="text-gray-300">
-                  At Nexus of Truth, we're dedicated to creating a more truthful
+                  At Certa, we're dedicated to creating a more truthful
                   digital world. Our mission is to combat the spread of
                   misinformation and deepfakes using cutting-edge AI technology
                   and real-time fact-checking.
@@ -151,7 +151,7 @@ const About = () => {
           >
             <div className="text-white prose prose-lg prose-invert max-w-none">
               <p>
-                Nexus of Truth is an innovative platform designed to combat
+                Certa is an innovative platform designed to combat
                 misinformation and deepfakes in real-time. Our system leverages
                 advanced AI technologies including natural language processing,
                 computer vision, and knowledge graphs to verify information
@@ -186,7 +186,7 @@ const About = () => {
 
               <p>
                 Our technology has been developed by a team of researchers and
-                engineers from IIIT Bangalore, combining expertise in artificial
+                engineers from CIT Chennai, combining expertise in artificial
                 intelligence, data science, and media studies. The platform has
                 been trained on diverse datasets to ensure accuracy across
                 different domains and cultural contexts.
@@ -357,27 +357,27 @@ const About = () => {
                   "Our fact-checking system achieves over 90% accuracy on benchmark datasets. We continuously improve our models with new data and feedback from experts to maintain high standards of reliability.",
               },
               {
-                question: "Can TruthTell detect deepfakes in real-time?",
+                question: "Can Certa detect deepfakes in real-time?",
                 answer:
                   "Yes, our system can analyze video streams in real-time to detect potential deepfakes with minimal latency. The detection algorithms are optimized for speed while maintaining high accuracy.",
               },
               {
-                question: "What sources does TruthTell use for verification?",
+                question: "What sources does Certa use for verification?",
                 answer:
-                  "TruthTell uses a diverse range of trusted sources including academic publications, government databases, reputable news outlets, and verified expert knowledge. Our knowledge graph connects information across these sources.",
+                  "Certa uses a diverse range of trusted sources including academic publications, government databases, reputable news outlets, and verified expert knowledge. Our knowledge graph connects information across these sources.",
               },
               {
                 question: "Is the platform available for public use?",
                 answer:
-                  "Currently, TruthTell is available in beta for journalists, researchers, and educational institutions. We plan to expand access to the general public in phases to ensure system stability and quality.",
+                  "Currently, Certa is available in beta for journalists, researchers, and educational institutions. We plan to expand access to the general public in phases to ensure system stability and quality.",
               },
               {
-                question: "How does TruthTell handle different languages?",
+                question: "How does Certa handle different languages?",
                 answer:
                   "Our platform currently supports fact-checking in English, Hindi, and Spanish, with more languages being added. The multilingual capabilities are built on advanced language models trained on diverse datasets.",
               },
               {
-                question: "Can I integrate TruthTell with my own applications?",
+                question: "Can I integrate Certa with my own applications?",
                 answer:
                   "Yes, we offer API access for developers who want to integrate our fact-checking capabilities into their applications. Contact our team for documentation and partnership opportunities.",
               },
@@ -409,7 +409,7 @@ const About = () => {
                     T
                   </div>
                   <span className="ml-2 text-xl font-bold text-white">
-                    TruthTell
+                    Certa
                   </span>
                 </div>
                 <p className="text-gray-400 mt-2 max-w-md">
@@ -440,7 +440,7 @@ const About = () => {
             </div>
             <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm">
-                © {new Date().getFullYear()} TruthTell. All rights reserved.
+                © {new Date().getFullYear()} Certa. All rights reserved.
               </p>
               <div className="mt-4 md:mt-0 flex space-x-6">
                 <a

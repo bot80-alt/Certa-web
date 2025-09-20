@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Nexus Of Truth",
+    "name": "Certa",
     "version": "1.0",
     "description": "Fact check web pages using Nexus Fact Checker",
     "permissions": [
